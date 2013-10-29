@@ -12,4 +12,10 @@ describe('Test Application - async loader', function () {
     var greeting = element(by.css("body>div"));
     expect(greeting.getText()).toContain("0.1");
   });
+
+  it('should bind to version', function () {
+    var greeting = element(by.binding("version"));
+    expect(greeting.getText()).toContain("0.1");
+  });
+
 });

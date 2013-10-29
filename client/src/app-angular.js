@@ -17,6 +17,10 @@ define(['angular'], function () {
       };
     }]);
 
+    app.controller('Test', function($scope, version){
+      $scope.version = version;
+    })
+
     return app;
   };
 
