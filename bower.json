@@ -1,4 +1,11 @@
 {
+  "name": "angular-scenario-karma-requirejs",
+  "version": "0.0.1",
+  "authors": [
+    "toddb <todd@goneopen.com>"
+  ],
+  "description": "Test for scenario runner with karma using requirejs",
+  "license": "MIT",
   "private": true,
   "ignore": [
     "node_modules",

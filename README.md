@@ -19,8 +19,9 @@ Thoughts:
 ## Installation
 
 ```shell
-sudo npm install -d grunt karma
+sudo npm install -d grunt karma bower
 npm install
+bower install
 node_modules/protractor/bin/install_selenium_standalone
 ```
 
