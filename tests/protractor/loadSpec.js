@@ -9,7 +9,7 @@ describe('Test Application - async loader', function () {
   });
 
   it('should show version', function () {
-    var greeting = element(by.css("body>div"));
+    var greeting = element(by.css("body>div>span"));
     expect(greeting.getText()).toContain("0.1");
   });
 
