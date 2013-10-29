@@ -1,0 +1,8 @@
+build
+dist
+pkg
+node_modules
+.idea
+npm-debug.log
+client/vendor
+selenium
